@@ -1,0 +1,47 @@
+
+.pertama{
+	color: rgba(200, 190, 233, .7);
+	/*red green blue*/
+	/*0 - 255*/
+	/*0 -> tergelap*/
+	/*255 -> terterang*/
+}
+#kedua{
+	color: brown;
+}
+
+/*
+display ada 3 jenis
+1. inline
+TIDAK BISA DIRUBAH UKURAN NYA
+2. block
+BISA DIRUBAH UKURANN NYA
+3. inline-block
+
+*/
+
+p{
+	border: solid;
+
+}
+span{
+	border: solid;
+	width: 100px;
+	height: 60px;
+}
+
+h3{
+	display: inline-block;
+	width: 50px;
+}
+li{
+	display: inline;
+	border:solid;
+	background:rgb(50, 20, 250);
+
+	display: inline-block;
+	background: rgb(30, 40, 50);
+	border: solid;
+	text-align: center;
+	color: white;
+}
