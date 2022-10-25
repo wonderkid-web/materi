@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pertemuan 2</title>
+</head>
+<style>
+	h1{
+		color: brown;
+	}
+	.malam{
+		color: white;
+		background: black;
+	}
+	.hilang{
+		display: none;
+	}
+</style>
+<body>
+
+	
+</body>
+<script>
+	/*Manipulasi Class*/
+	// let h1 = document.querySelectorAll('.header')[0]
+ //    let body = document.querySelector('body')
+ //    h1.classList.add('malam')
+
+ //    Manipulasi Element
+ //    let p = document.createElement('h1')
+ //    p.innerHTML = "ini dibuat dengan javascript"
+
+ //    body.appendChild(p)
+
+    /*Function*/
+    /*Penjumlahan Tanpa Function*/
+    // let x = 7
+    // let y = 10
+    // let hasil1= x + y
+    // console.log(hasil1)
+    // let x2 = 4
+    // let y2 = 5
+    // let hasil2 = x2 + y2
+    // console.log(hasil2)
+
+    function tambah(angka1, angka2){
+    	return console.log(angka1 + angka2)
+    }
+
+    tambah(3,9)
+    tambah(8, 10)
+    tambah(10, 20)
+
+    // let h3 = document.querySelector('.klik')
+
+   	// h3.addEventListener('click', function(){
+   	// 	h3.style.background = "purple"
+   	// })
+
+
+
+   	// let tombol = document.querySelector('button')
+   	// let h1 = document.querySelector('h1')
+   	// tombol.addEventListener('click', function(){
+   	// 	h1.classList.toggle('hilang')
+   	// })
+
+
+    /*Tugas*/
+    // nama -> tulis nama di class
+    // npm -> tulis nama di id
+    // alamat
+   function namaFunction(text){
+  	let kalimat = text
+  	console.log(kalimat)
+  }
+
+  namaFunction()
+
+	let body = document.querySelector('body')
+
+function buatElement(element, text){
+	let h2 = document.createElement(element)
+	h2.innerHTML = text
+	body.appendChild(h2)
+}
+
+
+buatElement('marquee', 'wira anjeng')
+buatElement('h1', 'ini text h1', 'test2')
+
+
+</script>
+</html>
