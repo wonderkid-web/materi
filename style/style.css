@@ -7,6 +7,17 @@
 	padding: 0;
 }
 
+.nav ul{
+	display: flex;
+	border: solid;
+	width: 25%;
+	font-size: 20px;
+	justify-content: space-evenly;
+}
+.nav li{
+	list-style: none;
+}
+
 .jumbotron{
 	background: #d6e274;
 	height: 50vh;
@@ -48,18 +59,21 @@
 
 /*breakpoint responsive mobile*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
+	.nav ul{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
 	.jumbotron{
 		height: 65vh;
 	}
- 	.content{
- 		margin-top: 25px;
- 		flex-direction: column;
- 		align-items: center;
- 	}
- 	.biodata{
- 		margin-top: 25px;
- 		width: 100%;
- 		font-size: .7rem;
- 	}
+	.content{
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.biodata{
+		width: 100%;
+	}
 }
